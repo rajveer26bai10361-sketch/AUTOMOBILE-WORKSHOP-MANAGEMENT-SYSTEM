@@ -1,4 +1,4 @@
-# 🚗 Automobile Workshop Management System
+#  Automobile Workshop Management System
 
 A **Python-based Automobile Workshop Management System** designed to manage customers, vehicles, services, spare parts, job cards, billing, service history, and workshop reports.
 
@@ -6,9 +6,9 @@ The system uses **JSON files for data storage**, making it simple, lightweight, 
 
 ---
 
-## 📌 Features
+##  Features
 
-### 👤 Customer Management
+###  Customer Management
 
 * Add new customers
 * Generate unique Customer IDs
@@ -21,7 +21,7 @@ The system uses **JSON files for data storage**, making it simple, lightweight, 
   * Phone number
 * View all registered customers
 
-### 🚘 Vehicle Management
+###  Vehicle Management
 
 * Register vehicles under existing customers
 * Generate unique Vehicle IDs
@@ -36,7 +36,7 @@ The system uses **JSON files for data storage**, making it simple, lightweight, 
 * Search vehicles by Vehicle ID, registration number, or Customer ID
 * View all registered vehicles
 
-### 🔧 Service Catalogue
+###  Service Catalogue
 
 The system provides a predefined service catalogue:
 
@@ -53,7 +53,7 @@ The system provides a predefined service catalogue:
 
 Users can select multiple services while creating a job card.
 
-### 🧰 Parts Inventory
+### Parts Inventory
 
 The system maintains an inventory of automobile parts including:
 
@@ -75,7 +75,7 @@ Each part contains:
 
 The inventory is automatically reduced when parts are used in a job.
 
-### 📋 Job Card Management
+###  Job Card Management
 
 A job card can contain:
 
@@ -91,7 +91,7 @@ A job card can contain:
 
 Each job receives a unique Job ID.
 
-### 🔄 Job Status Management
+###  Job Status Management
 
 Jobs move through the following stages:
 
@@ -110,7 +110,7 @@ The system prevents:
 * Moving a job backwards
 * Skipping a status
 
-### 🧾 Billing System
+###  Billing System
 
 Bills can be generated after a job reaches **COMPLETED** or **DELIVERED** status.
 
@@ -125,7 +125,7 @@ Final Bill
 
 The generated bill includes service costs, parts costs, labour charges, GST, and the final total.
 
-### 📜 Service History
+###  Service History
 
 Service history can be searched using:
 
@@ -134,7 +134,7 @@ Service history can be searched using:
 
 It displays previous job cards, dates, statuses, services, and billing amounts.
 
-### 📊 Workshop Dashboard
+###  Workshop Dashboard
 
 The dashboard provides information such as:
 
@@ -147,11 +147,11 @@ The dashboard provides information such as:
 * Total revenue
 * Most requested service
 
-### 📦 Inventory Report
+###  Inventory Report
 
 The inventory report displays current stock levels and gives a **LOW STOCK warning** when a part has 2 or fewer units remaining.
 
-### 🔍 Job Search
+###  Job Search
 
 Jobs can be searched using their Job ID to quickly view:
 
@@ -165,7 +165,7 @@ Jobs can be searched using their Job ID to quickly view:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **Python**
 * **JSON**
@@ -183,7 +183,7 @@ The program uses Python's built-in `json`, `os`, and `datetime` modules.
 
 ---
 
-## 💾 Data Storage
+##  Data Storage
 
 The application stores its data in four JSON files:
 
@@ -198,7 +198,7 @@ These files are automatically loaded when the program starts and updated wheneve
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Automobile-Workshop-Management-System/
@@ -247,7 +247,7 @@ python "AUTOMOBILE WORKSHOP MANAGEMENT SYSTEM.py"
 
 ---
 
-## 🖥️ Main Menu
+##  Main Menu
 
 After starting the program, the following menu is displayed:
 
@@ -269,7 +269,7 @@ After starting the program, the following menu is displayed:
 
 ---
 
-## 🔐 Input Validation
+##  Input Validation
 
 The system includes basic input validation.
 
@@ -287,7 +287,7 @@ The phone-number validation and numeric input validation are implemented through
 
 ---
 
-## 💰 Billing Calculation
+##  Billing Calculation
 
 The billing system calculates GST at **18%**.
 
@@ -301,7 +301,7 @@ The bill is only generated when the job status is `COMPLETED` or `DELIVERED`.
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 
 The general workflow of the system is:
 
@@ -329,7 +329,7 @@ DELIVERED
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 The main objective of this project is to create a simple computerized system for managing the daily operations of an automobile workshop.
 
@@ -347,7 +347,7 @@ It reduces the need for manual record keeping and provides a structured way to m
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 The project can be extended by adding:
 
@@ -365,7 +365,7 @@ The project can be extended by adding:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Rajveer Tyagi**
 
@@ -374,6 +374,6 @@ VIT Bhopal University
 
 ---
 
-## 📄 License
+##  License
 
 This project was developed as an academic project for learning and demonstrating Python programming, file handling, data structures, and basic software management concepts.
